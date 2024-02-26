@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#display {
+  height: 100%;
+  width: 70%;
+  background: black;
+}
+
+#log {
+  height: 100%;
+  width: 30%;
+  background: black;
+  font-family: monospace; 
+  border-left-color: gray;
+  border-left-style: solid;
+  border-left-width: 2px;
+}
+
+p {
+  color: white;
+  border-top-color: gray;
+  border-top-style: solid;
+  white-space: pre;
+}
